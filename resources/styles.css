@@ -3,53 +3,88 @@
 * {
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   font-family: Helvetica;
   font-size: 22px;
-  text-align: center;
+  margin-top: 0%;
 }
 
 
 /* Header */
 
-.header {
-   height:69px;
+header {
+   height :69px;
+   width:100%;
    border-bottom: 1px solid seashell;
    position: fixed;
-
+   background-color: black;
+   display: inline;
+   z-index: 10;
+   
 }
 
-.nav {
+nav  {
+  float: right;
+  position: relative;
+  right: 10px;
+  
+  
+}
+
+nav h1 {
+  display: inline-block;
+  padding-right : 10px;
   text-decoration: underline;
+  padding-top: 20px;
 }
 
-.logo {
+.logo img{
   height: 50px;
   margin-left: 10px;
-
+  padding-top: 10px;
+  float: left;
+  
+ 
 }
 
-/* Body */
 
-    /* Main */
+
+
+
+/* Main */
+
+section.maincontainer {
+  display: block;
+  
+}
+
 .mainimg {
   height: 700px;
   width: 1200px;
   margin-left: 50px;
   margin-right: 50px;
+  padding-top: 69px;
+  
+  z-index: 1;
+  
 }
 
-.banner {
+.banner  {
+  display: inline-block;
+  position: relative;
+  bottom: 300px;
   background-color: black;
-  width: 1200px;
-  padding: 30px 0px;
-
+  width: 100%;
+  z-index: 2;
+  text-align: center;
+  opacity: 0.9;
+  
 }
 
 
 
     /* Tea of the month */
 .teaofthemonth {
+  padding-top: 100px;
   display: flex;
   width: 1000px;
   flex-wrap: wrap;
@@ -66,7 +101,7 @@
 
     /* Locations */
 
-.locations img {
+ {
   
 }
 
